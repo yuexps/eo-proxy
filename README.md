@@ -22,6 +22,9 @@
 ### 网页界面
 访问部署域名，输入目标网址即可
 
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/83b91ec1-3ef2-441c-8373-736a764cbc06" />
+
+
 ### API 调用
 ```bash
 # 基本用法
