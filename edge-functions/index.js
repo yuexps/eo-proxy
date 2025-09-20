@@ -57,12 +57,12 @@ export async function onRequest(context) {
             <p class="text-gray-200 mt-2">简单、快速、可靠的文件下载测试工具</p>
           </div>
           
-          <form id="urlForm" onsubmit="handleSubmit(event)">
+          <form id="urlForm" onsubmit="handleSubmit(event)" autocomplete="off">
             
             <div class="relative mb-4">
               <input type="text" id="targetUrl" required
                 class="w-full px-4 py-3 text-lg text-white bg-white/10 rounded-lg border border-transparent focus:border-white/50 focus:ring-0 focus:outline-none transition duration-300"
-                placeholder="下载链接" autocomplete="url">
+                placeholder="下载链接" autocomplete="off">
             </div>
 
             <div class="relative mb-4">
@@ -96,7 +96,7 @@ export async function onRequest(context) {
             <div class="text-xs text-white/70 space-y-1">
               <p>• 输入完整链接，如：https://xxx.xx/xxx.zip</p>
               <p>• 支持HTTP和HTTPS协议</p>
-              <p>• 仅供学习和个人使用,禁止滥用！</p>
+              <p>• 仅供学习和个人使用,禁止滥用</p>
             </div>
           </div>
         </div>
