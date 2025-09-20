@@ -94,9 +94,9 @@ export async function onRequest(context) {
           <div class="mt-6 p-4 bg-white/5 rounded-lg border border-white/10">
             <h3 class="text-sm font-medium text-white mb-2">使用说明</h3>
             <div class="text-xs text-white/70 space-y-1">
-              <p>• 输入完整链接，如：https://xxx.xx/xxx.zip</p>
+              <p>• 输入完整链接：https://xxx.xx/xxx.zip</p>
               <p>• 支持HTTP和HTTPS协议</p>
-              <p>• 仅供学习和个人使用,禁止滥用</p>
+              <p>• 仅供学习和个人使用，禁止滥用</p>
             </div>
           </div>
         </div>
